@@ -9,7 +9,8 @@ body {
     margin-left: 20px;
   }
   h2 {
-    color: hsl(304, 87%, 57%);
+    color: hsl(304, 100%, 51%);
+    text-shadow: 1px 1px 1px hsl(0, 1%, 25%);
     margin-left: 20px;
     
   }
@@ -20,7 +21,10 @@ body {
     text-align: right;
   }
   button {
-    background-color: gray;
+    background-color: rgb(10, 219, 10);
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
     font-size: 45px;
     margin-left: 20px;
     padding: 20px;
@@ -29,9 +33,9 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
   button:hover {
-    background-color: #04AA6D; /* Green */
+    opacity: 10;
     color: white;
-    cursor: progress;
+    cursor: pointer;
   }
 
   .topnav {
@@ -46,7 +50,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 2em;
   }
   
   /* Change the color of links on hover */
@@ -59,4 +63,5 @@ body {
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+    font-size: 2em;
   }
