@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(224, 224, 224);
     border: 2px solid;
     padding: 10px;
   }
@@ -9,9 +9,9 @@ body {
     margin-left: 20px;
   }
   h2 {
-    color: rgb(1, 110, 189);
+    color: hsl(304, 87%, 57%);
     margin-left: 20px;
-    color: rgb(196, 0, 183);
+    
   }
 
   button {
