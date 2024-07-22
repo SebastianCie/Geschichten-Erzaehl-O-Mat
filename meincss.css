@@ -13,7 +13,12 @@ body {
     margin-left: 20px;
     
   }
-
+  input[type=number]{
+    width: 150px;
+    height: 45px;
+    font-size: 4em;
+    text-align: right;
+  }
   button {
     background-color: gray;
     font-size: 45px;
